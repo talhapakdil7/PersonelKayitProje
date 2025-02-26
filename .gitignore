@@ -1,0 +1,33 @@
+# Derleme ve Çalışma Dosyaları
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# Visual Studio ve Rider IDE Dosyaları
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.cache
+*.csproj.user
+
+# Bağımlılıklar
+packages/
+node_modules/
+
+# Konfigürasyon ve Hassas Bilgiler
+*.config
+*.env
+appsettings.json
+appsettings.Development.json
+
+# Veritabanı ve Geçici Dosyalar
+*.mdf
+*.ldf
+*.db
+*.sqlite
